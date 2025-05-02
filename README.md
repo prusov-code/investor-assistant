@@ -21,6 +21,7 @@
 ## Демонстрация экранов приложения
 ### Экран таблицы доходности (Доходность инвестора)
 <img src="https://prusov-code.github.io/images/investor_assistant/investor_table.jpg" alt="Экран таблицы доходности (Доходности инвестора" width="400"/>
+
 ### Экран калькулятора сложного процента
 <img src="https://prusov-code.github.io/images/investor_assistant/compound_interest.jpg" alt="Экран калькулятора сложных процентов" width="400"/>
 ### Экран календаря дивидендов компаний
