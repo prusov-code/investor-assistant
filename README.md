@@ -19,14 +19,13 @@
 - Скачать .apk файл расположенный в данном репозитории по пути app/release/InvestorAssistant.apk
 - Установить на устройство под управлением операционной системой Android
 ## Демонстрация экранов приложения
-<img src="https://prusov-code.github.io/images/investor_assistant/investor_table.jpg" alt="Пример изображения" width="400"/>
 ### Экран таблицы доходности (Доходность инвестора)
-![screenshot](https://prusov-code.github.io/images/investor_assistant/investor_table.jpg)
+<img src="https://prusov-code.github.io/images/investor_assistant/investor_table.jpg" alt="Экран таблицы доходности (Доходности инвестора" width="400"/>
 ### Экран калькулятора сложного процента
-![screenshot](https://prusov-code.github.io/images/investor_assistant/compound_interest.jpg)
+<img src="https://prusov-code.github.io/images/investor_assistant/compound_interest.jpg" alt="Экран калькулятора сложных процентов" width="400"/>
 ### Экран календаря дивидендов компаний
-![screenshot](https://prusov-code.github.io/images/investor_assistant/dividend_calendar.jpg)
+<img src="https://prusov-code.github.io/images/investor_assistant/dividend_calendar.jpg" alt="Экран календаря дивидендов" width="400"/>
 ### Экран авторизации
-![screenshot](https://prusov-code.github.io/images/investor_assistant/login.jpg)
+<img src="https://prusov-code.github.io/images/investor_assistant/login.jpg" alt="Экран авторизации" width="400"/>
 ### Экран регистрации
-![screenshot](https://prusov-code.github.io/images/investor_assistant/signup.jpg)
+<img src="https://prusov-code.github.io/images/investor_assistant/signup.jpg" alt="Экран регистрации" width="400"/>
