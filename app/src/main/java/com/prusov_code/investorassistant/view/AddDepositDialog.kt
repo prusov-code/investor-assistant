@@ -78,7 +78,7 @@ class AddDepositDialog(
         DatePickerDialog(requireContext(), { _, selectedYear, selectedMonth, selectedDay ->
             calendar.set(selectedYear, selectedMonth, selectedDay)
 
-            // Форматируем выбранную дату
+            // Форматируем выбранную датуу
             val formattedDate = String.format(
                 "%02d.%02d.%04d",
                 selectedDay,
