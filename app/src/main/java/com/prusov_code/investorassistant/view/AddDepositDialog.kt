@@ -66,7 +66,7 @@ class AddDepositDialog(
             Toast.makeText(requireContext(), "Некорректная дата (дд.мм.гггг)", Toast.LENGTH_SHORT).show()
             return
         }
-        //test of commit
+
         onAdd(amount, date) // Передаем данные наружу
         dismiss()
     }
