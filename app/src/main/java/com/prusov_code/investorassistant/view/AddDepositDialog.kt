@@ -67,6 +67,7 @@ class AddDepositDialog(
             return
         }
         //test of commit
+        //test
         onAdd(amount, date) // Передаем данные наружу
         dismiss()
     }
