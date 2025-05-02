@@ -24,9 +24,12 @@
 
 ### Экран калькулятора сложного процента
 <img src="https://prusov-code.github.io/images/investor_assistant/compound_interest.jpg" alt="Экран калькулятора сложных процентов" width="400"/>
+
 ### Экран календаря дивидендов компаний
 <img src="https://prusov-code.github.io/images/investor_assistant/dividend_calendar.jpg" alt="Экран календаря дивидендов" width="400"/>
+
 ### Экран авторизации
 <img src="https://prusov-code.github.io/images/investor_assistant/login.jpg" alt="Экран авторизации" width="400"/>
+
 ### Экран регистрации
 <img src="https://prusov-code.github.io/images/investor_assistant/signup.jpg" alt="Экран регистрации" width="400"/>
