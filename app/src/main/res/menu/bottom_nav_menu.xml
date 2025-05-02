@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/profitTableFragment"
+        android:icon="@drawable/ic_income"
+        android:title="Доходность" />
+    <item
+        android:id="@id/compoundInterestFragment"
+        android:icon="@drawable/ic_calculator"
+        android:title="Калькулятор" />
+    <item
+        android:id="@id/dividendCalendarFragment"
+        android:icon="@drawable/ic_table"
+        android:title="Дивиденды" />
+</menu>

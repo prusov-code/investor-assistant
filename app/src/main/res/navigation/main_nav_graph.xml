@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/profitTableFragment">
+
+    <!-- Таблица доходности -->
+    <fragment
+        android:id="@+id/profitTableFragment"
+        android:name="com.prusov_code.investorassistant.view.ProfitTableFragment"
+        android:label="Таблица" />
+
+    <!-- Калькулятор сложных процентов -->
+    <fragment
+        android:id="@+id/compoundInterestFragment"
+        android:name="com.prusov_code.investorassistant.view.CompoundInterestFragment"
+        android:label="Калькулятор" />
+
+    <!-- Календарь дивидендов -->
+    <fragment
+        android:id="@+id/dividendCalendarFragment"
+        android:name="com.prusov_code.investorassistant.view.DividendCalendarFragment"
+        android:label="Календарь" />
+</navigation>

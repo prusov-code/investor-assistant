@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Общая доходность -->
+
+            <!-- 7 дней -->
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Доходность инвестора"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tvTotalProfit"
+                style="@style/ProfitHeaderText" />
+
+            <TextView
+                android:id="@+id/tvWeeklyProfit"
+                style="@style/ProfitSubHeaderText" />
+
+            <!-- 30 дней -->
+            <TextView
+                android:id="@+id/tvMonthlyProfit"
+                style="@style/ProfitSubHeaderText" />
+
+            <!-- Текущий месяц -->
+            <TextView
+                android:id="@+id/tvCurrentMonthProfit"
+                style="@style/ProfitSubHeaderText" />
+
+            <!-- Кастомный период -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="16dp">
+
+                <Button
+                    android:id="@+id/btnStartDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Начало периода" />
+
+                <Button
+                    android:id="@+id/btnEndDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Конец периода" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvCustomPeriodProfit"
+                style="@style/ProfitSubHeaderText" />
+
+            <Button
+                android:id="@+id/btnAddDeposit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:text="Добавить запись" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:layoutManager="LinearLayoutManager" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

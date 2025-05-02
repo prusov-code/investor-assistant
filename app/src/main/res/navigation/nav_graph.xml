@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <!-- Логин -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.prusov_code.investorassistant.view.LoginFragment"
+        android:label="Login">
+        <action
+            android:id="@+id/action_login_to_register"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_login_to_main"
+            app:destination="@id/mainFragment" />
+    </fragment>
+
+    <!-- Регистрация -->
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.prusov_code.investorassistant.view.RegisterFragment"
+        android:label="Register">
+        <action
+            android:id="@+id/action_register_to_login"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+    <!-- Основной экран -->
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.prusov_code.investorassistant.view.MainFragment"
+        android:label="Main">
+        <action
+            android:id="@+id/action_main_to_compoundInterest"
+            app:destination="@id/compoundInterestFragment" />
+    </fragment>
+</navigation>
