@@ -20,7 +20,7 @@
 - Установить на устройство под управлением операционной системой Android
 ## Демонстрация экранов приложения
 ### Экран таблицы доходности (Доходность инвестора)
-![screenshot](https://prusov-code.github.io/images/investor_assistant/invesor_table.jpg)
+![screenshot](https://prusov-code.github.io/images/investor_assistant/investor_table.jpg)
 ### Экран калькулятора сложного процента
 ![screenshot](https://prusov-code.github.io/images/investor_assistant/compound_interest.jpg)
 ### Экран календаря дивидендов компаний
