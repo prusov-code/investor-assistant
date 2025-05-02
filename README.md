@@ -19,7 +19,7 @@
 - Скачать .apk файл расположенный в данном репозитории по пути app/release/InvestorAssistant.apk
 - Установить на устройство под управлением операционной системой Android
 ## Демонстрация экранов приложения
-<img src="https://prusov-code.github.io/images/investor_assistant/investor_table.jpg" alt="Пример изображения" width="400" height="300"/>
+<img src="https://prusov-code.github.io/images/investor_assistant/investor_table.jpg" alt="Пример изображения" width="400"/>
 ### Экран таблицы доходности (Доходность инвестора)
 ![screenshot](https://prusov-code.github.io/images/investor_assistant/investor_table.jpg)
 ### Экран калькулятора сложного процента
