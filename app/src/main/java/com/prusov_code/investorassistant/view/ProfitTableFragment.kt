@@ -1,4 +1,3 @@
-// app/src/main/java/com/prusov_code/investorassistant/view/ProfitTableFragment.kt
 package com.prusov_code.investorassistant.view
 
 import android.app.DatePickerDialog
