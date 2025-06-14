@@ -17,7 +17,7 @@ class DividendAdapter : ListAdapter<Dividend, DividendAdapter.ViewHolder>(Divide
 
         fun bind(dividend: Dividend) {
             with(binding) {
-                // Загрузка логотипа (используем Glide)
+                // Загрузка логотипа через Glide
                 Glide.with(itemView.context)
                     .load(dividend.logoUrl ?: R.drawable.ic_calculator)
                     .into(ivLogo)

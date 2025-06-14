@@ -37,7 +37,7 @@ class DepositAdapter(
     inner class ViewHolder(private val binding: ItemDepositBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
-        fun bind(record: DepositRecord, previousRecord: DepositRecord?) { // 2 параметра
+        fun bind(record: DepositRecord, previousRecord: DepositRecord?) {
             with(binding) {
                 tvAmount.text = "Размер депозита: ${record.amount} ₽"
                 tvDate.text = "Дата: ${formatDate(record.date)}"

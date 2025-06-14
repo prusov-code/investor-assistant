@@ -60,9 +60,6 @@ dependencies {
     implementation "androidx.room:room-runtime:2.6.1"
     kapt "androidx.room:room-compiler:2.6.1"
     implementation "androidx.room:room-ktx:2.6.1"
-    // Фикс для ошибки с Metadata
-    implementation "org.jetbrains.kotlinx:kotlinx-metadata-jvm:0.7.0"
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.22"
     // Navigation
     implementation "androidx.navigation:navigation-fragment-ktx:2.5.3"
     implementation "androidx.navigation:navigation-ui-ktx:2.5.3"
@@ -77,4 +74,5 @@ dependencies {
     //Glide
     implementation 'com.github.bumptech.glide:glide:4.16.0'
     kapt 'com.github.bumptech.glide:compiler:4.16.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.22"
 }
