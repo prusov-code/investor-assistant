@@ -7,6 +7,8 @@
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=prusov-code_investor-assistant&metric=bugs)](https://sonarcloud.io/summary/new_code?id=prusov-code_investor-assistant)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=prusov-code_investor-assistant&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=prusov-code_investor-assistant)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=prusov-code_investor-assistant&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=prusov-code_investor-assistant)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=prusov-code_investor-assistant&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=prusov-code_investor-assistant)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=prusov-code_investor-assistant&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=prusov-code_investor-assistant)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=prusov-code_investor-assistant&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=prusov-code_investor-assistant)
 
 ## О проекте
