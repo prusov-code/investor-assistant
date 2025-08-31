@@ -1,4 +1,14 @@
 # Приложение «Помощник Инвестора»
+## Quality of code
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=prusov-code_investor-assistant&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=prusov-code_investor-assistant)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=prusov-code_investor-assistant&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=prusov-code_investor-assistant)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=prusov-code_investor-assistant&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=prusov-code_investor-assistant)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=prusov-code_investor-assistant&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=prusov-code_investor-assistant)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=prusov-code_investor-assistant&metric=bugs)](https://sonarcloud.io/summary/new_code?id=prusov-code_investor-assistant)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=prusov-code_investor-assistant&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=prusov-code_investor-assistant)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=prusov-code_investor-assistant&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=prusov-code_investor-assistant)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=prusov-code_investor-assistant&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=prusov-code_investor-assistant)
+
 ## О проекте
 Это мобильное приложение для инвесторов и трейдеров разработанное на языке Kotlin для операционной системы Android. Данный проект является итоговой работой, которая реализовывалась в рамках обучения в IT Академии Samsung. Проект успешно прошел защиту.  
 
